@@ -41,8 +41,6 @@ In a microservices-based architecture, the **API Gateway** acts as a **single en
 -   A **users** service on port `3001`.
 -   A **products** service on port `3002`.
 
-![diagram-api-gateway-1024x441](https://github.com/user-attachments/assets/7d86a9b2-6925-4a54-8008-deb1ba1e1716)
-
 ### How it Works
 
 When the client accesses:
