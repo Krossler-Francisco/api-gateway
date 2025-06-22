@@ -44,11 +44,16 @@ In a microservices-based architecture, the **API Gateway** acts as a **single en
 ### How it Works
 
 When the client accesses:
+
 `GET http://localhost:3000/users`
+
 The Gateway detects that the route starts with `/users` and forwards the request to:
- `GET http://localhost:3001/` 
- The same happens with:
- `GET http://localhost:3000/products → http://localhost:3002/`
+
+`GET http://localhost:3001/` 
+ 
+The same happens with:
+ 
+`GET http://localhost:3000/products → http://localhost:3002/`
 
 ## Technologies Used
 
