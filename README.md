@@ -65,7 +65,7 @@ The same happens with:
 
 ```
 api-gateway/
-├── gateway.js # Main Gateway server
+├── gateway.js
 ├── services/
 │   ├── users.js
 │   └── products.js
